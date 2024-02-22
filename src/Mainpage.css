@@ -1,0 +1,12 @@
+.mainpage {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.transition {
+    height: 20px;
+    background: linear-gradient(to bottom, rgb(42, 38, 38), black);
+
+    
+}

@@ -1,0 +1,89 @@
+.movie-row {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.movie-row > h2 {
+  color: white;
+}
+
+.row {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.row::-webkit-scrollbar {
+  display: none;
+}
+
+.row-poster {
+  width: 300px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.poster-addon {
+  background-color: gray;
+  width: 300px;
+  height: 230px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: relative;
+  bottom: 21px;
+}
+
+.poster-container:hover ~ .poster-addon {
+  cursor: pointer;
+
+  background-color: grey;
+}
+
+.poster-details {
+  color: white;
+}
+
+.poster-details > h3 {
+  max-width: 200px;
+}
+
+.poster-details > h5 {
+  position: relative;
+  bottom: 10px;
+  font-weight: 800;
+}
+
+.poster-overview {
+  color: white;
+  width: 300px;
+  font-size: xx-small;
+}
+
+.poster-footer {
+    background-color: white;
+    width: 30px;
+    border-radius: 20px;
+    position: relative;
+    left: 260px;
+    bottom: 246px;
+    cursor: pointer;
+}
+
+.poster-footer:hover {
+   
+}
+
+
+.addIcon {
+    position: relative;
+    left: 3px;
+    top: 1px;
+    color: grey;
+    transition: ease 1s;
+}
+
+.addIcon:hover {
+    color: black;
+}

@@ -1,0 +1,45 @@
+
+.cartItem {
+    padding: 20px;
+
+}
+
+.removeIcon {
+    position: relative;
+
+    cursor: pointer;
+    bottom: 165px;
+    left: 532px;
+    
+}
+
+.cartedMovie {
+    width: 75%;
+    
+    border-top: 1px solid lightgray;
+    padding-top: 30px;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+    
+}
+
+.cartedMovieDetails {
+    
+    width: 500px;
+    position: relative;
+    height: 165px;
+    
+
+}
+
+.cart {
+    margin-left: 40px;
+    
+}
+
+.wishlistTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

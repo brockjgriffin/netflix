@@ -1,0 +1,18 @@
+.featured-poster {
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    
+ }
+ 
+ .banner_contents {
+     margin: 10px;
+     color: white;
+ }
+ 
+ 
+ .banner_button {
+     background-color: transparent;
+     color: white;
+ }

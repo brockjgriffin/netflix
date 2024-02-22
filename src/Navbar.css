@@ -1,0 +1,193 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: transparent;
+  flex-direction: row;
+  transition-timing-function: ease;
+  transition: all 1s;
+  
+}
+
+.Nav {
+  
+}
+
+.nav_none {
+  display: none;
+}
+
+.nav_black {
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar-left {
+  display: flex;
+  margin-left: 10px;
+}
+
+.navbar-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid white;
+  height: 30px;
+}
+
+.navbar-input > input {
+  border: none;
+  background-color: transparent;
+}
+
+.navbar-input > input::placeholder {
+  color: white;
+}
+
+.navbar-input > input:focus {
+  outline: none;
+}
+
+.yourEmail {
+
+  background-color: red;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: white;
+  height: 30px;
+}
+
+
+
+.yourEmail > h5 {
+  bottom: 25px;
+  position: relative;
+}
+
+.dropdown-icon {
+  position: relative;
+  top: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.searchIcon {
+  color: white;
+}
+
+.searchIcon:hover {
+  transition-timing-function: ease;
+  transition: all .3s;
+  color: red;
+}
+
+.cartIcon {
+  color: white;
+  transform: scale(.9);
+  margin-right: 20px;
+}
+
+.cartIcon:hover {
+  transition-timing-function: ease;
+  transition: all .3s;
+  color: red;
+
+}
+
+.cartTotal {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  position: relative;
+  left: 83px;
+  bottom: 10px;
+  
+}
+
+.cartTotal > p {
+  color: white;
+  font-size:medium;
+  position: relative;
+  bottom: 18px;
+  left: 5px;
+}
+
+.cartTotal:hover {
+  
+}
+
+.cartTotal > p:hover {
+  
+}
+
+.login-button {
+  background-color: rgb(207, 6, 6);
+  border-radius: 10px;
+  width: 80px;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.dropdown-icon:hover {
+  transition-timing-function: ease;
+  transition: all .3s;
+  color: red;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 20px;
+  
+}
+
+.navbar-right > h4 {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-right-popup {
+  color: white;
+  cursor: pointer;
+  background: linear-gradient( to top, rgb(19, 19, 19), transparent );
+  position: absolute;
+  top: 72px; border-radius: 10px;
+  right: 20px;
+
+  
+  transition: 1s ease;
+  width: 100px;
+  
+}
+
+
+
+.navbar-right-popup > h4 {
+  justify-content: center;
+  display: flex;
+}
+
+.navbar-right-popup > h4:hover {
+  color: red;
+}
+
+.login_button {
+  background-color: red;
+  height: 60px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.login_button > h4 {
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
